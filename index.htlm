@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saverio Simonelli</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    nav {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #0077cc;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Saverio Simonelli</h1>
+    <p>Professor of Economics</p>
+    <p><a href="mailto:saverio.simonelli@example.com">saverio.simonelli@example.com</a></p>
+  </header>
+
+  <nav>
+    <a href="#bio">Bio</a>
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+    <a href="cv.pdf">Download Vitae</a>
+  </nav>
+
+  <section id="bio">
+    <h2>Bio</h2>
+    <p>This is a placeholder for a short biography. Include your background, interests, and current research focus here.</p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <ul>
+      <li>
+        <strong>International Comovements</strong> (with Haroon Mumtaz and Paolo Surico) <a href="papers/international_comovements.pdf">[pdf]</a>
+      </li>
+      <li>
+        <strong>Mafia and Public Spending</strong> (with Nicola Gennaioli and Guido Tabellini) <a href="papers/mafia_public_spending.pdf">[pdf]</a>
+      </li>
+      <!-- Add more papers here -->
+    </ul>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <p>Course materials and links to syllabi or lecture slides can be included here.</p>
+  </section>
+
+  <footer>
+    <p style="text-align:center; color: #888;">&copy; Saverio Simonelli</p>
+  </footer>
+</body>
+</html>
